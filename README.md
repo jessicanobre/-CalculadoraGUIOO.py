@@ -17,28 +17,28 @@ cd calculadora-tkinter
 
 python calculadora.py
 
-Uma janela da interface gráfica aparecerá, onde você poderá inserir os valores e selecionar a operação desejada.
+* Uma janela da interface gráfica aparecerá, onde você poderá inserir os valores e selecionar a operação desejada.
 
 # Funcionalidades
 Operações disponíveis:
 
-Soma: Adiciona dois números.
+* Soma: Adiciona dois números.
 
-Subtração: Subtrai o segundo número do primeiro.
+* Subtração: Subtrai o segundo número do primeiro.
 
-Multiplicação: Multiplica dois números.
+* Multiplicação: Multiplica dois números.
 
-Divisão: Divide o primeiro número pelo segundo. Caso o segundo número seja zero, retorna uma mensagem de erro.
+* Divisão: Divide o primeiro número pelo segundo. Caso o segundo número seja zero, retorna uma mensagem de erro.
 
 # Decisões de Design
 
-Encapsulamento das Operações:  As operações matemáticas são encapsuladas em métodos dentro da classe Calculadora. Isso facilita a manutenção e a possível extensão do código, caso novas operações sejam adicionadas no futuro.
+* Encapsulamento das Operações:  As operações matemáticas são encapsuladas em métodos dentro da classe Calculadora. Isso facilita a manutenção e a possível extensão do código, caso novas operações sejam adicionadas no futuro.
 
 
-Interface Gráfica com Tkinter:  A interface foi desenvolvida utilizando a biblioteca Tkinter, que é parte da biblioteca padrão do Python. Tkinter foi escolhido por ser simples de usar e suficiente para a proposta desta calculadora básica.
+* Interface Gráfica com Tkinter:  A interface foi desenvolvida utilizando a biblioteca Tkinter, que é parte da biblioteca padrão do Python. Tkinter foi escolhido por ser simples de usar e suficiente para a proposta desta calculadora básica.
 
 
-Validação de Entradas:  O programa inclui uma simples verificação de erros para garantir que os valores inseridos são números válidos. Em caso de entrada inválida, uma mensagem de erro é exibida na interface.
+* Validação de Entradas:  O programa inclui uma simples verificação de erros para garantir que os valores inseridos são números válidos. Em caso de entrada inválida, uma mensagem de erro é exibida na interface.
 
 
-Modularidade:  A classe Calculadora é responsável por todas as operações matemáticas, enquanto o código da interface gráfica está separado em funções distintas. Isso promove uma melhor organização e facilita a compreensão e o teste do código.
+* Modularidade:  A classe Calculadora é responsável por todas as operações matemáticas, enquanto o código da interface gráfica está separado em funções distintas. Isso promove uma melhor organização e facilita a compreensão e o teste do código.
